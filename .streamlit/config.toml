@@ -1,9 +1,4 @@
 [server]
 headless = true
-port = 8501
 enableCORS = false
-enableXsrfProtection = true
-
-[browser]
-serverAddress = "0.0.0.0"
-gatherUsageStats = false
+enableXsrfProtection = false
